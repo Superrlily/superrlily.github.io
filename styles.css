@@ -13,3 +13,22 @@ font-family: Moonrising, sans-serif;
 h2 {
     color: #000000;
 }
+
+.box {
+    border: 3px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
+    gap: 5px; /* Espacement entre les éléments */
+    padding: 10px;    
+}
