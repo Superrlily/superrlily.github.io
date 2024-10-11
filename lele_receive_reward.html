@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="styles.css">
-    <header>Quelle récompense pour Lélé?</header>
-    <form action="rewards_sent.html" method="POST">   
+    <header>Quelle récompense pour Lélé?</header> <br>
+    <form action="rewards_sent.html" method="POST">
+        <section class="text">
+            <div>Pourquoi veux tu récompenser Lélé?</div>
+            <input type="text" name="reward">
+        </section><br>   
         <section class="points">
             <span>Combien de points?</span><br>
             <input type="radio" name="points" id="1" value="10">
@@ -16,7 +20,7 @@
             <input type="radio" name="points" id="5" value="1000">
             <label for="5">1 000</label><br>
             <input type="submit" id="submit" value="Validey">
-        </section>
+        </section><br>
     </form>
 <a href="./ana_send_reward.html" target="_self">Revenir en arrière</a>
 </html>
